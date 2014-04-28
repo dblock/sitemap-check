@@ -23,7 +23,7 @@ sitemap_tree.tree.breadth_each do |node|
   STDOUT.write url
 
   request = Net::HTTP::Head.new(url)
-  request.initialize_http_header({ "User-agent" => "Safari/Mobile" })
+  request.initialize_http_header({ "User-agent" => "SitemapCheck/Mobile 1.0" })
   response = http.request(request)
   puts (response.code == '200' ? ' [ok]' : " [#{response.code}] <--- ERROR")
 end
