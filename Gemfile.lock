@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/dblock/sitemap_treemaker.git
+  remote: https://github.com/dblock/sitemap_treemaker.git
   revision: dcc3bac799fa577c4a005fc5e4bcc83e7fb25ba4
   branch: nested-sitemaps
   specs:
@@ -10,14 +10,14 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
-    json (1.8.1)
-    mini_portile (0.5.3)
-    nokogiri (1.6.1)
-      mini_portile (~> 0.5.0)
-    rubytree (0.9.3)
-      json (~> 1.8)
-      structured_warnings (~> 0.1)
-    structured_warnings (0.1.4)
+    json (2.7.1)
+    mini_portile2 (2.8.5)
+    nokogiri (1.16.3)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    racc (1.7.3)
+    rubytree (2.0.3)
+      json (~> 2.0, > 2.3.1)
 
 PLATFORMS
   ruby
